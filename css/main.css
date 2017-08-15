@@ -1,0 +1,12 @@
+svg {
+    width: 100%;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.active {
+    background: blue;
+}

@@ -1,0 +1,109 @@
+<html>
+<head>
+  <title>Sequencer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <div id="sequencer" class="container-fluid">
+    <div class="row names">
+      <div class="col-md-1">
+        <h1> </h1>
+      </div>
+      <div class="col-md-2 step step-0">
+        <h1>1</h1>
+      </div>
+      <div class="col-md-2 step step-1">
+        <h1>2</h1>
+      </div>
+      <div class="col-md-2 step step-2">
+        <h1>3</h1>
+      </div>
+      <div class="col-md-2 step step-3">
+        <h1>4</h1>
+      </div>
+    </div>
+    <div class="row crash">
+      <div class="col-md-1">
+        <img src="/svg/001-music.svg" alt="crash" />
+      </div>
+      <div class="col-md-2 step step-0">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-1">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-2">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-3">
+        <input type="checkbox" />
+      </div>
+    </div>
+    <div class="row snare">
+      <div class="col-md-1">
+        <img src="/svg/002-drum.svg" alt="snare" />
+      </div>
+      <div class="col-md-2 step step-0">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-1">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-2">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-3">
+        <input type="checkbox" />
+      </div>
+    </div>
+    <div class="row bass">
+      <div class="col-md-1">
+        <img src="/svg/003-bass-drum.svg" alt="bass" />
+      </div>
+      <div class="col-md-2 step step-0">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-1">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-2">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-3">
+        <input type="checkbox" />
+      </div>
+    </div>
+    <div class="row hat">
+      <div class="col-md-1">
+        <img src="/svg/004-hi-hat.svg" alt="hat" />
+      </div>
+      <div class="col-md-2 step step-0">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-1">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-2">
+        <input type="checkbox" />
+      </div>
+      <div class="col-md-2 step step-3">
+        <input type="checkbox" />
+      </div>
+    </div>
+
+    <div class="row controls">
+      <div class="col-md-2">
+        <button id="start" type="button" class="btn btn-success btn-lg">Play</button>
+      </div>
+      <div class="col-md-2">
+        <button id="stop" type="button" class="btn btn-danger btn-lg">Stop</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script/sequencer.js"></script>
+</body>
+</html>
