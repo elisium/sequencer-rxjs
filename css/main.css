@@ -1,16 +1,30 @@
+* { box-sizing: border-box; }
+
 svg {
     width: 100%;
 }
 
 .row {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .step {
-    height: 62px;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
 }
 
 .active {
-    background: #7a7aff;
+    background: #4B0082;
+    color: #fff;
+}
+
+input {
+    transform: scale(3);
+    transform-origin: 50% 0;
+}
+
+button {
+    margin-top: 20px;
 }
