@@ -7,6 +7,10 @@ svg {
     margin-bottom: 20px;
 }
 
+.step {
+    height: 62px;
+}
+
 .active {
-    background: blue;
+    background: #7a7aff;
 }
